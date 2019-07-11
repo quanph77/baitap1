@@ -1,490 +1,540 @@
-                                            .wrapper {
-                                                width: 1920px;
-                                            }
-                                            
-                                            body {
-                                                margin: 0;
-                                                padding: 0;
-                                            }
-                                            /* ........BANNER....... */
-                                            
-                                            .banner {
-                                                width: 100%;
-                                                height: 875px;
-                                                background-image: url(../img/banner.jpeg);
-                                                background-size: 100% 100%;
-                                                background-repeat: no-repeat;
-                                                margin: 0 auto;
-                                            }
-                                            
-                                            .banner-between {
-                                                width: 59%;
-                                                height: 875px;
-                                                margin: 0 auto;
-                                                background: none;
-                                            }
-                                            
-                                            .about-us {
-                                                height: 16px;
-                                                width: 66px;
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                font-size: 12px;
-                                                letter-spacing: 1px;
-                                                line-height: 16px;
-                                                padding-top: 53px;
-                                                padding-left: 954px;
-                                                text-transform: uppercase;
-                                            }
-                                            
-                                            .hapo-erp {
-                                                height: 77px;
-                                                width: 256px;
-                                                color: #AED581;
-                                                font-family: Enso;
-                                                font-size: 64px;
-                                                line-height: 77px;
-                                                margin-top: 165px;
-                                                margin-left: auto;
-                                                margin-right: auto;
-                                            }
-                                            
-                                            .banner-slogan {
-                                                display: flex;
-                                                margin-top: 53px;
-                                                margin-right: auto;
-                                                margin-left: auto;
-                                                width: 750px;
-                                            }
-                                            
-                                            .slogan-faster {
-                                                margin-left: 229px;
-                                            }
-                                            
-                                            .slogan-together {
-                                                margin-left: 183px;
-                                            }
-                                            
-                                            .icon-banner {
-                                                height: 48px;
-                                                width: 52px;
-                                                color: #283238;
-                                                font-family: themify;
-                                                font-size: 48px;
-                                                letter-spacing: 4px;
-                                                line-height: 48px;
-                                                margin-left: 22px;
-                                                margin-bottom: 14px;
-                                            }
-                                            
-                                            .better {
-                                                height: 48px;
-                                                width: 96px;
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                font-size: 36px;
-                                                font-weight: 300;
-                                                letter-spacing: -0.07px;
-                                                line-height: 48px;
-                                                margin-top: 0px;
-                                            }
-                                            
-                                            .faster {
-                                                height: 48px;
-                                                width: 101px;
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                font-size: 36px;
-                                                font-weight: 300;
-                                                letter-spacing: -0.07px;
-                                                line-height: 48px;
-                                                margin-top: 0px;
-                                            }
-                                            
-                                            .together {
-                                                height: 48px;
-                                                width: 141px;
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                font-size: 36px;
-                                                font-weight: 300;
-                                                letter-spacing: -0.07px;
-                                                line-height: 48px;
-                                                margin-top: 0px;
-                                            }
-                                            
-                                            .i {
-                                                margin-top: 17px;
-                                                padding-left: 285px;
-                                                margin-bottom: 6px;
-                                                /* height: 11px;
-                                                    width: 285px; */
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                /* font-size: 9px; */
-                                                font-style: italic;
-                                                /* letter-spacing: -0.02px;
-                                                    line-height: 11px;
-                                                } */
-                                            }
-                                            
-                                            .o {
-                                                margin-left: 473px;
-                                            }
-                                            /* .........general-css.......... */
-                                            
-                                            .mask {
-                                                height: 571px;
-                                                width: 100%;
-                                                background-color: white;
-                                                box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-                                                justify-content: center;
-                                                display: flex;
-                                            }
-                                            
-                                            .container {
-                                                width: 59%;
-                                                height: 371px;
-                                                display: flex;
-                                                justify-content: space-between;
-                                                padding-top: 107.41px;
-                                            }
-                                            
-                                            .left-container {
-                                                width: 48%;
-                                                height: 371px;
-                                            }
-                                            
-                                            .right-container {
-                                                width: 48%;
-                                                height: 371px;
-                                            }
-                                            
-                                            .photo {
-                                                width: 100%;
-                                                height: 100%;
-                                            }
-                                            
-                                            .icon {
-                                                width: 36px;
-                                                height: 36px;
-                                                margin-top: 14px;
-                                                padding-right: 19px;
-                                            }
-                                            
-                                            span {
-                                                height: 63px;
-                                                width: 308px;
-                                                color: #444444;
-                                                font-family: Roboto;
-                                                font-size: 48px;
-                                                font-weight: 300;
-                                                letter-spacing: -0.09px;
-                                                line-height: 63px;
-                                            }
-                                            
-                                            .lorem-ipsum-is-simpl-copy {
-                                                height: 19px;
-                                                width: 100%;
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                font-size: 14px;
-                                                font-style: italic;
-                                                letter-spacing: -0.03px;
-                                                line-height: 19px;
-                                            }
-                                            
-                                            .lorem-ipsum-is-simpl {
-                                                height: 168px;
-                                                width: 100%;
-                                                color: #283238;
-                                                font-family: Roboto;
-                                                font-size: 13px;
-                                                line-height: 24px;
-                                                text-align: justify;
-                                            }
-                                            
-                                            #button-start {
-                                                height: 50px;
-                                                width: 195px;
-                                                border-radius: 100px;
-                                                background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
-                                                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-                                                cursor: pointer;
-                                                color: white;
-                                                font-family: Roboto;
-                                                font-size: 16px;
-                                                letter-spacing: 1.33px;
-                                                line-height: 21px;
-                                                text-transform: uppercase;
-                                                margin-top: 25px;
-                                            }
-                                            
-                                            ul {
-                                                padding: 0 0 0 0;
-                                            }
-                                            
-                                            ul li {
-                                                padding-top: 17px;
-                                            }
-                                            /* .......today-i-learnt...... */
-                                            /* .......daily-report....... */
-                                            /* .......list-oval-slogan........... */
-                                            
-                                            .rectangle-3 {
-                                                height: 322px;
-                                                width: 100%;
-                                                background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-                                                justify-content: center;
-                                                display: flex;
-                                            }
-                                            
-                                            .list-oval {
-                                                width: 50%;
-                                                margin-left: 391.75px;
-                                                margin-top: 68.75px;
-                                                margin-bottom: 70px;
-                                                display: flex;
-                                                justify-content: space-between;
-                                                margin: 68px auto;
-                                            }
-                                            
-                                            .large-oval {
-                                                box-sizing: border-box;
-                                                height: 109.5px;
-                                                width: 109.5px;
-                                                border: 2.5px solid #FFFFFF;
-                                                border-radius: 50%;
-                                            }
-                                            
-                                            .small-oval {
-                                                box-sizing: border-box;
-                                                height: 45.5px;
-                                                width: 45.5px;
-                                                border: 2.5px solid #FFFFFF;
-                                                background-color: #7CB342;
-                                                border-radius: 50%;
-                                                margin-left: 32px;
-                                                margin-top: -20px;
-                                            }
-                                            
-                                            .content {
-                                                height: 42px;
-                                                width: 69px;
-                                                color: #FFFFFF;
-                                                font-family: Roboto;
-                                                font-size: 16px;
-                                                letter-spacing: 1.33px;
-                                                line-height: 21px;
-                                                text-align: center;
-                                                text-transform: uppercase;
-                                                margin-top: 10.75px;
-                                                margin-left: 21px;
-                                            }
-                                            
-                                            .num {
-                                                height: 32px;
-                                                width: 14px;
-                                                color: #FFFFFF;
-                                                font-family: Roboto;
-                                                font-size: 24px;
-                                                letter-spacing: -0.05px;
-                                                line-height: 32px;
-                                                margin-top: 7.25px;
-                                                margin-left: 15.25px;
-                                            }
-                                            
-                                            .icon-list {
-                                                width: 36px;
-                                                height: 36px;
-                                                padding: 31px 31px;
-                                            }
-                                            
-                                            .rectangle-4 {
-                                                height: 544px;
-                                                width: 100%;
-                                                background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-                                                justify-content: center;
-                                                display: flex;
-                                                background-size: 100% 100%;
-                                                background-image: url(../img/background2.jpg);
-                                            }
-                                            /* ...........our-customer----------- */
-                                            
-                                            .our-customer {
-                                                width: 59%;
-                                                margin-top: 50px;
-                                                margin-bottom: 29px;
-                                                /* display: flex; */
-                                                /* justify-content: space-between; */
-                                            }
-                                            
-                                            .title {
-                                                height: 63px;
-                                                width: 288px;
-                                                color: #FFFFFF;
-                                                font-family: Roboto;
-                                                font-size: 48px;
-                                                font-weight: 300;
-                                                letter-spacing: -0.09px;
-                                                line-height: 63px;
-                                                margin: 0 auto;
-                                            }
-                                            
-                                            .list-our-customer {
-                                                margin-top: 0px;
-                                                margin-left: 0px;
-                                                display: flex;
-                                                justify-content: space-between;
-                                                margin-top: 38px;
-                                            }
-                                            
-                                            .foot-content {
-                                                height: 31px;
-                                                width: 58px;
-                                                color: #FFFFFF;
-                                                font-family: Roboto;
-                                                font-size: 10px;
-                                                letter-spacing: -0.03px;
-                                                line-height: 13px;
-                                                text-align: center;
-                                                margin-top: 16px;
-                                                margin-left: 11px;
-                                            }
-                                            
-                                            .rectangle-4-copy-2 {
-                                                height: 80px;
-                                                width: 79.36px;
-                                                border: 2px solid #93A4AD;
-                                                border-radius: 100px;
-                                            }
-                                            
-                                            .slide-nav {
-                                                margin-top: 20px;
-                                                display: flex;
-                                                margin-left: 473px;
-                                                width: 55px;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .oval-3-copy {
-                                                box-sizing: border-box;
-                                                height: 11px;
-                                                width: 10.71px;
-                                                border: 1px solid #979797;
-                                                border-radius: 50%;
-                                            }
-                                            
-                                            .number-six {
-                                                margin-top: 0px;
-                                                margin-left: 97px;
-                                                height: 73px;
-                                                width: 72px;
-                                                opacity: 0.4;
-                                                color: #FFFFFF;
-                                                font-family: themify;
-                                                font-size: 72px;
-                                                letter-spacing: -0.14px;
-                                                line-height: 73px;
-                                                text-align: justify;
-                                            }
-                                            
-                                            .our-customer-content {
-                                                height: 90px;
-                                                width: 750px;
-                                                color: #FFFFFF;
-                                                font-family: Roboto;
-                                                font-size: 18px;
-                                                font-weight: 300;
-                                                letter-spacing: -0.03px;
-                                                line-height: 30px;
-                                                text-align: justify;
-                                                margin-left: 214px;
-                                                margin-top: -21px;
-                                            }
-                                            
-                                            .number-nine {
-                                                height: 73px;
-                                                width: 72px;
-                                                opacity: 0.4;
-                                                color: #FFFFFF;
-                                                font-family: themify;
-                                                font-size: 72px;
-                                                letter-spacing: -0.14px;
-                                                line-height: 73px;
-                                                text-align: justify;
-                                                margin-left: 1024px;
-                                                margin-top: -36px;
-                                            }
-                                            /* ................. */
-                                            /* ..................footer.................. */
-                                            
-                                            .section-footer {
-                                                height: 180px;
-                                                width: 100%;
-                                                border: 1px solid #ECEFF1;
-                                                background-color: #39474E;
-                                                box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-                                                padding-top: 45px;
-                                                display: flex;
-                                                justify-content: center;
-                                            }
-                                            
-                                            .footer-container {
-                                                width: 55%;
-                                                height: 57%;
-                                                display: flex;
-                                                justify-content: space-between;
-                                                padding-left: 143px;
-                                            }
-                                            
-                                            .footer-about-us {
-                                                width: 73%;
-                                                height: 100%;
-                                                display: flex;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .footer-link {
-                                                width: 15%;
-                                                height: 100%;
-                                                display: flex;
-                                                justify-content: space-between;
-                                                padding-top: 30px;
-                                            }
-                                            
-                                            .footer-content {
-                                                width: 17%;
-                                                height: 100%;
-                                            }
-                                            
-                                            .footer-content .content-hapo {
-                                                height: 29px;
-                                                width: 96px;
-                                                color: #AED581;
-                                                font-family: Enso;
-                                                font-size: 24px;
-                                                line-height: 29px;
-                                                margin-bottom: 30px;
-                                            }
-                                            
-                                            .footer-about-us span {
-                                                color: #D0D8DC;
-                                                font-family: Roboto;
-                                                font-size: 10px;
-                                                font-weight: 500;
-                                                letter-spacing: -0.02px;
-                                                line-height: 13px;
-                                                margin-top: 0;
-                                            }
-                                            
-                                            .title-footer-content {
-                                                color: #8BC34A;
-                                                font-family: Roboto;
-                                                font-size: 13px;
-                                                font-weight: 500;
-                                                letter-spacing: -0.03px;
-                                                line-height: 18px;
-                                                text-transform: uppercase;
-                                                margin-bottom: 30px;
-                                            }
+.wrapper {
+    width: 1920px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ........BANNER....... */
+
+.banner {
+    width: 100%;
+    height: 875px;
+    background-image: url(../img/banner.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-between {
+    width: 59%;
+    height: 875px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us {
+    height: 16px;
+    width: 66px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin-top: 53px;
+    margin-left: 1005px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.sign-in {
+    height: 36px;
+    width: 82px;
+    border: 2px solid #8BC34A;
+    border-radius: 100px;
+    font-family: Roboto;
+    color: #8BC34A;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin-top: 43px;
+    margin-left: 38px;
+}
+
+.hapo-erp {
+    height: 77px;
+    width: 256px;
+    color: #AED581;
+    font-family: Enso;
+    font-size: 64px;
+    line-height: 77px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 165px;
+}
+
+.banner-slogan {
+    display: flex;
+    margin-top: 53px;
+    margin-left: 195px;
+}
+
+.slogan-faster {
+    margin-left: 229px;
+}
+
+.slogan-together {
+    margin-left: 183px;
+}
+
+.icon-banner-bet {
+    height: 48px;
+    width: 52px;
+    color: #283238;
+    font-family: themify;
+    font-size: 48px;
+    letter-spacing: 4px;
+    line-height: 48px;
+    margin-left: 22px;
+}
+
+.icon-banner-fast {
+    height: 48px;
+    width: 52px;
+    color: #283238;
+    font-family: themify;
+    font-size: 48px;
+    letter-spacing: 4px;
+    line-height: 48px;
+    margin-left: 25px;
+}
+
+.icon-banner-toge {
+    height: 48px;
+    width: 52px;
+    color: #283238;
+    font-family: themify;
+    font-size: 48px;
+    letter-spacing: 4px;
+    line-height: 48px;
+    margin-left: 45px;
+}
+
+.better {
+    height: 48px;
+    width: 96px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 48px;
+    margin-top: 14px;
+}
+
+.faster {
+    height: 48px;
+    width: 101px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 48px;
+    margin-top: 14px;
+}
+
+.together {
+    height: 48px;
+    width: 141px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 48px;
+    margin-top: 14px;
+}
+
+.i {
+    height: 24px;
+    width: 569px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: -0.03px;
+    line-height: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.o {
+    margin-top: 31px;
+    margin-left: 473px;
+}
+
+
+/* .........general-css.......... */
+
+.mask {
+    height: 571px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 59%;
+    height: 371px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 107.41px;
+}
+
+.left-container {
+    width: 48%;
+    height: 371px;
+}
+
+.right-container {
+    width: 48%;
+    height: 371px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    margin-top: 14px;
+    padding-right: 19px;
+}
+
+span {
+    height: 63px;
+    width: 308px;
+    color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 63px;
+}
+
+.lorem-ipsum-is-simpl-copy {
+    height: 19px;
+    width: 100%;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: -0.03px;
+    line-height: 19px;
+}
+
+.lorem-ipsum-is-simpl {
+    height: 168px;
+    width: 100%;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#button-start {
+    height: 50px;
+    width: 195px;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+ul li {
+    padding-top: 17px;
+}
+
+
+/* .......today-i-learnt...... */
+
+
+/* .......daily-report....... */
+
+
+/* .......list-oval-slogan........... */
+
+.rectangle-3 {
+    height: 322px;
+    width: 100%;
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+    justify-content: center;
+    display: flex;
+}
+
+.list-oval {
+    width: 59%;
+    margin-left: 391.75px;
+    margin-top: 68.75px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 68px auto;
+}
+
+.large-oval {
+    box-sizing: border-box;
+    height: 109.5px;
+    width: 109.5px;
+    border: 2.5px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.small-oval {
+    box-sizing: border-box;
+    height: 45.5px;
+    width: 45.5px;
+    border: 2.5px solid #FFFFFF;
+    background-color: #7CB342;
+    border-radius: 50%;
+    margin-left: 32px;
+    margin-top: -20px;
+}
+
+.content {
+    height: 42px;
+    width: 69px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10.75px;
+    margin-left: 21px;
+}
+
+.num {
+    height: 32px;
+    width: 14px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 24px;
+    letter-spacing: -0.05px;
+    line-height: 32px;
+    margin-top: 7.25px;
+    margin-left: 15.25px;
+}
+
+.icon-list {
+    width: 36px;
+    height: 36px;
+    padding: 31px 31px;
+}
+
+.rectangle-4 {
+    height: 544px;
+    width: 100%;
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+    justify-content: center;
+    display: flex;
+    background-size: 100% 100%;
+    background-image: url(../img/background2.jpg);
+}
+
+
+/* ...........our-customer----------- */
+
+.our-customer {
+    width: 59%;
+    margin-top: 50px;
+    margin-bottom: 29px;
+}
+
+.title {
+    height: 63px;
+    width: 288px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 63px;
+    margin: 0 auto;
+}
+
+.list-our-customer {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.foot-content {
+    height: 31px;
+    width: 58px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 10px;
+    letter-spacing: -0.03px;
+    line-height: 13px;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 11px;
+}
+
+.rectangle-4-copy-2 {
+    height: 80px;
+    width: 79.36px;
+    border: 2px solid #93A4AD;
+    border-radius: 100px;
+}
+
+.slide-nav {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 473px;
+    width: 55px;
+    justify-content: space-between;
+}
+
+.oval-3-copy {
+    box-sizing: border-box;
+    height: 11px;
+    width: 10.71px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+}
+
+.number-six {
+    margin-top: 0px;
+    margin-left: 97px;
+    height: 73px;
+    width: 72px;
+    opacity: 0.4;
+    color: #FFFFFF;
+    font-family: themify;
+    font-size: 72px;
+    letter-spacing: -0.14px;
+    line-height: 73px;
+    text-align: justify;
+}
+
+.our-customer-content {
+    height: 90px;
+    width: 750px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.03px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 214px;
+    margin-top: -21px;
+}
+
+.number-nine {
+    height: 73px;
+    width: 72px;
+    opacity: 0.4;
+    color: #FFFFFF;
+    font-family: themify;
+    font-size: 72px;
+    letter-spacing: -0.14px;
+    line-height: 73px;
+    text-align: justify;
+    margin-left: 1024px;
+    margin-top: -36px;
+}
+
+
+/* ................. */
+
+
+/* ..................footer.................. */
+
+.section-footer {
+    height: 180px;
+    width: 100%;
+    border: 1px solid #ECEFF1;
+    background-color: #39474E;
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 55%;
+    height: 57%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 143px;
+}
+
+.footer-about-us {
+    width: 73%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer-content {
+    width: 17%;
+    height: 100%;
+}
+
+.footer-content .content-hapo {
+    height: 29px;
+    width: 96px;
+    color: #AED581;
+    font-family: Enso;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.footer-about-us span {
+    color: #D0D8DC;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -0.02px;
+    line-height: 13px;
+    margin-top: 0;
+}
+
+.title-footer-content {
+    color: #8BC34A;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.03px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.photo-responsive {
+    display: none;
+}
