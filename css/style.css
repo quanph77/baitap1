@@ -166,6 +166,10 @@ body {
     margin-left: 473px;
 }
 
+.icon-li {
+    margin-right: 18px;
+}
+
 
 /* .........general-css.......... */
 
@@ -228,6 +232,7 @@ span {
     font-style: italic;
     letter-spacing: -0.03px;
     line-height: 19px;
+    margin-top: 15px;
 }
 
 .lorem-ipsum-is-simpl {
@@ -238,6 +243,8 @@ span {
     font-size: 13px;
     line-height: 24px;
     text-align: justify;
+    margin-top: 11px;
+    margin-bottom: 0px;
 }
 
 #button-start {
@@ -253,7 +260,7 @@ span {
     letter-spacing: 1.33px;
     line-height: 21px;
     text-transform: uppercase;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 ul {
@@ -261,7 +268,7 @@ ul {
 }
 
 ul li {
-    padding-top: 17px;
+    padding-top: 12px;
 }
 
 
@@ -477,11 +484,10 @@ ul li {
 }
 
 .footer-container {
-    width: 55%;
+    width: 59%;
     height: 57%;
     display: flex;
     justify-content: space-between;
-    padding-left: 143px;
 }
 
 .footer-about-us {
@@ -511,7 +517,8 @@ ul li {
     font-family: Enso;
     font-size: 24px;
     line-height: 29px;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
+    margin-top: 0px;
 }
 
 .footer-about-us span {
@@ -533,6 +540,7 @@ ul li {
     line-height: 18px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    margin-top: 9px;
 }
 
 .photo-responsive {
