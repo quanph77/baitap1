@@ -12,10 +12,15 @@ body {
 
 .banner {
     width: 100%;
-    height: 875px;
     background-image: url(../img/banner.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.top-banner {
+    width: 186px;
+    margin-left: 1007px;
+    padding-top: 43px;
 }
 
 .banner-between {
@@ -33,8 +38,6 @@ body {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 16px;
-    margin-top: 53px;
-    margin-left: 1005px;
     float: left;
     text-transform: uppercase;
 }
@@ -49,7 +52,6 @@ body {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 16px;
-    margin-top: 43px;
     margin-left: 38px;
 }
 
@@ -68,7 +70,10 @@ body {
 .banner-slogan {
     display: flex;
     margin-top: 53px;
-    margin-left: 195px;
+    margin-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
 }
 
 .slogan-faster {
